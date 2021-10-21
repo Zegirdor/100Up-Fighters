@@ -41,10 +41,6 @@ public class Personaje : MonoBehaviour {
         }
     }
 
-    void Update() {
-
-    }
-
     /// <summary>
     /// Esta función regresa un valor booleano indicando si el personaje está a una distancia del suelo
     /// suficiente para poder saltar.

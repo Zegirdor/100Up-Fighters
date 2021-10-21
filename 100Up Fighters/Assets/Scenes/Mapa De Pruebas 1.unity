@@ -1033,13 +1033,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1960087401, guid: 91a2d6b1146724246a4d766aed360b9d, type: 3}
+      propertyPath: posicionDelJugador
+      value: 
+      objectReference: {fileID: 1386967171}
     - target: {fileID: 1528499188006819396, guid: 91a2d6b1146724246a4d766aed360b9d, type: 3}
       propertyPath: m_Name
       value: Enemigo 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3140518217414006377, guid: 91a2d6b1146724246a4d766aed360b9d, type: 3}
-      propertyPath: puntosDeVida
-      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 7978523152328380429, guid: 91a2d6b1146724246a4d766aed360b9d, type: 3}
       propertyPath: m_RootOrder
@@ -1353,34 +1353,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camara Del Jugador
       objectReference: {fileID: 0}
-    - target: {fileID: 4586699493259019462, guid: c761c08e24efef246a6ffbf3ad9f4062, type: 3}
-      propertyPath: near clip plane
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4586699493259019462, guid: c761c08e24efef246a6ffbf3ad9f4062, type: 3}
-      propertyPath: m_BackGroundColor.b
-      value: 0.49803925
-      objectReference: {fileID: 0}
-    - target: {fileID: 4586699493259019462, guid: c761c08e24efef246a6ffbf3ad9f4062, type: 3}
-      propertyPath: m_BackGroundColor.g
-      value: 0.49803925
-      objectReference: {fileID: 0}
-    - target: {fileID: 4586699493259019462, guid: c761c08e24efef246a6ffbf3ad9f4062, type: 3}
-      propertyPath: m_BackGroundColor.r
-      value: 0.49803925
-      objectReference: {fileID: 0}
-    - target: {fileID: 4586699493259019463, guid: c761c08e24efef246a6ffbf3ad9f4062, type: 3}
-      propertyPath: margen.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4586699493259019463, guid: c761c08e24efef246a6ffbf3ad9f4062, type: 3}
-      propertyPath: margen.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 4586699493259019463, guid: c761c08e24efef246a6ffbf3ad9f4062, type: 3}
-      propertyPath: margen.z
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4586699493259019463, guid: c761c08e24efef246a6ffbf3ad9f4062, type: 3}
       propertyPath: posicionDelJugador
       value: 
@@ -1394,28 +1366,8 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1293434882624795345, guid: 74d61991b15222c4a905a59358c085b3, type: 3}
-      propertyPath: alcanceDeAtaqueCAC
-      value: 0.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 1293434882624795345, guid: 74d61991b15222c4a905a59358c085b3, type: 3}
-      propertyPath: capaDeEnemigos.m_Bits
-      value: 1536
-      objectReference: {fileID: 0}
-    - target: {fileID: 1293434882624795345, guid: 74d61991b15222c4a905a59358c085b3, type: 3}
-      propertyPath: capaDeEnemigos2.m_Bits
-      value: 512
-      objectReference: {fileID: 0}
     - target: {fileID: 1528499188006819396, guid: 74d61991b15222c4a905a59358c085b3, type: 3}
       propertyPath: m_Name
-      value: Jugador
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528499188006819396, guid: 74d61991b15222c4a905a59358c085b3, type: 3}
-      propertyPath: m_Layer
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 1528499188006819396, guid: 74d61991b15222c4a905a59358c085b3, type: 3}
-      propertyPath: m_TagString
       value: Jugador
       objectReference: {fileID: 0}
     - target: {fileID: 7978523152328380429, guid: 74d61991b15222c4a905a59358c085b3, type: 3}
@@ -1461,10 +1413,6 @@ PrefabInstance:
     - target: {fileID: 7978523152328380429, guid: 74d61991b15222c4a905a59358c085b3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 8763094533098484737, guid: 74d61991b15222c4a905a59358c085b3, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -0.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 74d61991b15222c4a905a59358c085b3, type: 3}

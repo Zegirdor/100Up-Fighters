@@ -29,7 +29,7 @@ public class Jugador : Personaje, IDañable {
     public float dañoAtaqueCAC = 2f;
     public float enfriamientoDeAtaqueCAC = 1.1f;
     public float enfriamientoDeAtaqueADistancia = 1.1f;
-    public float retrasoEnRecuperarControl = 0.4f;
+    public float retrasoEnRecuperarControl = 1.0f;
     public LayerMask capaDeEnemigos = 9;
     private bool estaAtacandoCuerpoACuerpo = false;
     private bool noControlable = false;

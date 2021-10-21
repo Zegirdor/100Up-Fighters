@@ -24,7 +24,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 820444950164193869}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.2, y: 0.7, z: 0}
+  m_LocalPosition: {x: -0.5, y: 0.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7978523152328380429}
@@ -44,9 +44,9 @@ GameObject:
   - component: {fileID: 8517784857661098652}
   - component: {fileID: 920596629988387755}
   - component: {fileID: 1293434882624795345}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Jugador
-  m_TagString: Untagged
+  m_TagString: Jugador
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -168,11 +168,11 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 1
+  m_GravityScale: 1.805
   m_Material: {fileID: 0}
   m_Interpolate: 0
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!114 &1293434882624795345
 MonoBehaviour:
@@ -188,7 +188,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   puntosDeVida: 10
   velocidad: 5
-  fuerzaDeSalto: 7
+  fuerzaDeSalto: 11
   margenDeSalto: 0.1
   teclaAtaqueCAC: 122
   teclaSalto: 120
@@ -197,14 +197,14 @@ MonoBehaviour:
   origenDelAtaqueCAC: {fileID: 8763094533098484737}
   origenDelAtaqueADistancia: {fileID: 8411296753064910495}
   proyectil: {fileID: 7418539090724104123, guid: 64a5eccf19fbfa84489e3a7709bfff56, type: 3}
-  alcanceDeAtaqueCAC: 0
+  alcanceDeAtaqueCAC: 0.35
   "da\xF1oAtaqueCAC": 2
   enfriamientoDeAtaqueCAC: 1.1
   enfriamientoDeAtaqueADistancia: 1.1
-  retrasoEnRecuperarControl: 0.4
+  retrasoEnRecuperarControl: 0.78
   capaDeEnemigos:
     serializedVersion: 2
-    m_Bits: 9
+    m_Bits: 1536
 --- !u!1 &6544031958997360962
 GameObject:
   m_ObjectHideFlags: 0

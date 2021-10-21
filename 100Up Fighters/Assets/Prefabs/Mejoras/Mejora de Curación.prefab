@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 40282090251536095}
   - component: {fileID: 40282090251536094}
   - component: {fileID: 40282090251536092}
-  - component: {fileID: 40282090251536093}
+  - component: {fileID: 4378834418438219463}
   m_Layer: 12
   m_Name: "Mejora de Curaci\xF3n"
   m_TagString: Mejora
@@ -110,7 +110,7 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.8759135, y: 1.0158731}
   m_EdgeRadius: 0
---- !u!114 &40282090251536093
+--- !u!114 &4378834418438219463
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 40282090251536089}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3b8208fe880e0754dbebbd248fd5e3e5, type: 3}
+  m_Script: {fileID: 11500000, guid: 7dab19eab7fe23b499eec61706e0d916, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   cantidad: 5
